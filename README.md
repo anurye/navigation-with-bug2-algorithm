@@ -17,7 +17,7 @@ Implement a control callback function `solution5` that realizes the Bug2 navigat
 The goal point should be provided as an additional input argument to the function `solution5`, so running the simulation would be: 
 
 `run_simulation(@solution5, false, [goal_x, goal_y])`.
-
+![image](https://github.com/ahmed-yesuf/navigation-with-bug2-algorithm/assets/122631227/1081150c-d979-4ced-ab78-ce3a048496ad)
 
 # Setup
 ## Software components
