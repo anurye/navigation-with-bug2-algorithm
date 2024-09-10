@@ -65,5 +65,6 @@ goal_y = 4;
 run_simulation(@bug2, false, [goal_x, goal_y])
 ```
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IP27EjzqkGc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/IP27EjzqkGc/0.jpg)](https://youtu.be/IP27EjzqkGc)
+
 
