@@ -31,14 +31,14 @@ Copy the following three files from the directory of the `CoppeliaSim` to the di
 The three files you need to copy are:
 - `remApi.m`: located in `{CoppeliaSim_path}/programming/remoteApiBindings/matlab/matlab`
 
-  > [!NOTE]
-  > In the newest version of CoppeliaSim, the files may be located in `{CoppeliaSim_path}/programming//legacyRemoteApi/remoteApiBindings/matlab/matlab`
+> [!NOTE]
+> In the newest version of CoppeliaSim, the files may be located in `{CoppeliaSim_path}/programming//legacyRemoteApi/remoteApiBindings/matlab/matlab`
 
 - `remoteApiProto.m`: located in `{CoppeliaSim_path}/programming/remoteApiBindings/matlab/matlab`  
 - `remoteApi.so` (if you use Linux) or `remoteApi.dll` (if you use Windows) or `remoteApi.dylib` (if you use a Mac). If you have a choice between a 32-bit or 64-bit `remoteApi`, pick the one that corresponds to your Matlab install. 
 
-  > [!IMPORTANT]
-  > If you have 32-bit Matlab, pick the 32-bit remoteApi, even if your kernel is 64-bit. 
+> [!IMPORTANT]
+> If you have 32-bit Matlab, pick the 32-bit remoteApi, even if your kernel is 64-bit. 
 
   The file is located in `{CoppeliaSim_path}/programming/remoteApiBindings/lib/lib` You will find these files in the directory containing the CoppeliaSim app. Look in the `programming/remoteApiBindings/lib/lib and programming/remoteApiBindings/matlab/matlab` subdirectories of the CoppeliaSim app directory (although this can change from version to version). You must copy these files to the youbot directory within your copy of `EMOR tutorials repository`.
 - Run Matlab and change the current directory to the youbot directory (in Matlab Command Window), e.g. on Linux/Mac:
